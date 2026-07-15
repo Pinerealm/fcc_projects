@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <nav id="navbar">
+      <header>Python Documentation</header>
+      <a class="nav-link" href="#Introduction">Introduction</a>
+      <a class="nav-link" href="#Getting_Started">Getting Started</a>
+      <a class="nav-link" href="#Variables_and_Data_Types"
+        >Variables and Data Types</a
+      >
+      <a class="nav-link" href="#Control_Flow">Control Flow</a>
+      <a class="nav-link" href="#Functions">Functions</a>
+      <a class="nav-link" href="#Modules_and_Packages">Modules and Packages</a>
+      <a class="nav-link" href="#Conclusion">Conclusion</a>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>
+          Python is a high-level, interpreted programming language known for its
+          simplicity and readability. Created by Guido van Rossum in 1991,
+          Python has become one of the most popular programming languages in the
+          world due to its elegant syntax and versatility.
+        </p>
+        <ul>
+          <li>Easy to learn and use</li>
+          <li>Supports multiple programming paradigms</li>
+          <li>Large standard library</li>
+        </ul>
+        <p>
+          It supports multiple programming paradigms including procedural,
+          object-oriented, and functional programming. This flexibility allows
+          developers to choose the approach that best fits their project
+          requirements and coding style.
+        </p>
+        <p>
+          Python is widely used in web development, data science, artificial
+          intelligence, and automation. Major companies like Google, Netflix,
+          and Instagram rely on Python for critical infrastructure and data
+          processing tasks.
+        </p>
+      </section>
+      <section class="main-section" id="Getting_Started">
+        <header>Getting Started</header>
+        <p>
+          To start programming in Python, you need to download and install
+          Python from <code>python.org</code>. The installation process is
+          straightforward and available for Windows, macOS, and Linux systems.
+        </p>
+        <ul>
+          <li>Download Python installer</li>
+          <li>Install Python on your system</li>
+        </ul>
+        <p>
+          After installation, you can write Python code in a text editor or use
+          an IDE like <code>PyCharm</code> or <code>VS Code</code>. These tools
+          provide helpful features like syntax highlighting, code completion,
+          and debugging capabilities.
+        </p>
+        <p>
+          Run Python scripts from the command line using the
+          <code>python</code> command followed by the filename. For example,
+          <code>python script.py</code> will execute the Python file named
+          script.py.
+        </p>
+      </section>
+      <section class="main-section" id="Variables_and_Data_Types">
+        <header>Variables and Data Types</header>
+        <p>
+          Variables in Python are created by assigning a value using the equals
+          sign, for example <code>x = 10</code>. Python automatically infers the
+          data type based on the assigned value, making variable declaration
+          simple and intuitive.
+        </p>
+        <ul>
+          <li>Integers: <code>int</code></li>
+          <li>Floating point numbers: <code>float</code></li>
+          <li>Strings: <code>str</code></li>
+          <li>Lists: <code>list</code></li>
+          <li>Dictionaries: <code>dict</code></li>
+        </ul>
+        <p>
+          Python supports various data types including integers, floats,
+          strings, lists, tuples, and dictionaries. Each data type has specific
+          characteristics and methods that allow efficient data manipulation and
+          processing.
+        </p>
+        <p>
+          Python uses dynamic typing, meaning you don't need to declare variable
+          types explicitly. This feature reduces boilerplate code and allows for
+          rapid development and prototyping.
+        </p>
+      </section>
+      <section class="main-section" id="Control_Flow">
+        <header>Control Flow</header>
+        <p>
+          Control flow statements like <code>if</code>, <code>elif</code>, and
+          <code>else</code> allow you to execute code conditionally. These
+          statements enable programs to make decisions and execute different
+          code paths based on specific conditions.
+        </p>
+        <ul>
+          <li><code>if</code> statements</li>
+          <li><code>for</code> loops</li>
+          <li><code>while</code> loops</li>
+          <li><code>break</code> and <code>continue</code></li>
+          <li>Conditional expressions</li>
+        </ul>
+        <p>
+          Loops such as <code>for</code> and <code>while</code> enable you to
+          repeat code blocks multiple times. The <code>for</code> loop is ideal
+          for iterating over sequences, while <code>while</code> loops continue
+          executing as long as a condition remains true.
+        </p>
+        <p>
+          Break and continue statements provide additional control within loops.
+          The <code>break</code> statement exits the loop immediately, while
+          <code>continue</code> skips the current iteration.
+        </p>
+      </section>
+      <section class="main-section" id="Functions">
+        <header>Functions</header>
+        <p>
+          Functions are reusable blocks of code defined with the
+          <code>def</code> keyword. Functions promote code reusability, improve
+          readability, and make programs easier to maintain and debug.
+        </p>
+        <ul>
+          <li>Function definition with <code>def</code></li>
+          <li>Parameters and arguments</li>
+          <li>Return values</li>
+          <li>Default and keyword arguments</li>
+          <li>Variable-length arguments</li>
+        </ul>
+        <p>
+          Functions can accept parameters and return values using the
+          <code>return</code>
+          statement. This allows functions to process input data and produce
+          output results for use elsewhere in your program.
+        </p>
+        <p>
+          Python supports default arguments, variable-length arguments, and
+          keyword arguments in function definitions. These features provide
+          flexibility in how functions are called and allow for more expressive
+          and adaptable code.
+        </p>
+      </section>
+      <section class="main-section" id="Modules_and_Packages">
+        <header>Modules and Packages</header>
+        <p>
+          Modules are files containing Python code that can be imported into
+          other Python scripts using the <code>import</code> statement. This
+          modular approach enables code organization and reusability across
+          multiple projects.
+        </p>
+        <p>
+          Packages are collections of modules organized in directories with an
+          <code>__init__.py</code> file. Packages allow for a hierarchical
+          organization of modules and help manage large codebases effectively.
+        </p>
+        <p>
+          The Python Standard Library provides a wide range of modules for
+          various tasks such as file I/O, system calls, and data manipulation.
+          Additionally, the Python Package Index (PyPI) offers thousands of
+          third-party packages for specialized functionality.
+        </p>
+      </section>
+      <section class="main-section" id="Conclusion">
+        <header>Conclusion</header>
+        <p>
+          This documentation provided a brief overview of the Python programming
+          language. We covered essential concepts including variables, data
+          types, control flow, and functions.
+        </p>
+        <p>
+          For more detailed information, refer to the official Python
+          documentation at <code>docs.python.org</code>. The official
+          documentation includes comprehensive tutorials, API references, and
+          best practices.
+        </p>
+        <p>
+          Happy coding! Start exploring Python today and discover its endless
+          possibilities for software development.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
