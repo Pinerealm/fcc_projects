@@ -1,1 +1,1 @@
-freeCodeCamp projects and files
+freeCodeCamp project files
