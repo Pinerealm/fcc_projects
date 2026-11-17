@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 2rem;
+  font-family: sans-serif;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+  background-color: #f4f7fb;
+  color: #1f2937;
+}
+
+body.theme-dark {
+  background-color: #111827;
+  color: #f9fafb;
+}
+
+body.theme-contrast {
+  background: #000;
+  color: #fff;
+}
+
+button,
+#theme-dropdown {
+  width: min(24rem, calc(100vw - 2rem));
+}
+
+button {
+  border: 1px solid rgba(100, 116, 139, 0.35);
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  background: rgba(255, 255, 255, 0.85);
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background: rgba(255, 255, 255, 0.95);
+}
+
+#theme-dropdown {
+  border: 1px solid rgba(100, 116, 139, 0.2);
+  border-radius: 0.5rem;
+  padding: 0.25rem;
+  background: rgba(255, 255, 255, 0.95);
+}
+
+body.theme-dark button,
+body.theme-dark #theme-dropdown {
+  background: rgba(17, 24, 39, 0.92);
+  border-color: rgba(255, 255, 255, 0.16);
+}
+
+body.theme-contrast button,
+body.theme-contrast #theme-dropdown {
+  background: #000;
+  border-color: #fff;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+[role="menuitem"] {
+  padding: 0.65rem 0.85rem;
+  border-radius: 0.35rem;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+[role="menuitem"]:hover {
+  background: rgba(100, 116, 139, 0.08);
+}
+
+body.theme-dark [role="menuitem"]:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+body.theme-contrast [role="menuitem"]:hover {
+  background: #fff;
+  color: #000;
+}
+
+#status {
+  text-align: center;
+  min-height: 20px;
+}
