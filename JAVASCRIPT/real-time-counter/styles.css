@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #f5f5f5;
+  color: #222;
+}
+
+#text-input,
+#char-count {
+  width: min(100%, 32rem);
+}
+
+#text-input {
+  display: block;
+  min-height: 10rem;
+  padding: 0.75rem;
+  font: inherit;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  background: #fff;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+#char-count {
+  margin-top: -3rem;
+  font-size: 1rem;
+  text-align: center;
+}
